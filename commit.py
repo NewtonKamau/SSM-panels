@@ -21,7 +21,7 @@ total_commits = num_days * commits_per_day
 for i in range(total_commits):
   # Generate a commit message
   commit_message = f"Commit {i+1}"
-  a = random.randint(1,365)
+  a = random.randint(1,1825)
 
   # Add and commit the code
   subprocess.run(["git", "add", "."])
