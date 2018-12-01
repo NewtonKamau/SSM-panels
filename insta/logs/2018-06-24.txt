@@ -1,0 +1,120 @@
+[24-Jun-2018 01:00:05 UTC] Uncaught Exception: 'ErrorException'With message: 'Undefined variable: all_pks'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(435): Core\Error::errorHandler(8, 'Undefined varia...', '/home1/private/...', 435, Array)
+#1 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(827): App\Controllers\Task->processfunction()
+#2 [internal function]: App\Controllers\Task->processaAction()
+#3 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#4 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('processa', Array)
+#5 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/processa')
+#6 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/App/Controllers/Task.php' on line435
+[24-Jun-2018 16:57:12 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('dy_zvd', 'Pancake717', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(779): InstagramAPI\Instagram->login('dy_zvd', 'Pancake717')
+#5 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(845): App\Controllers\Task->processfunction()
+#6 [internal function]: App\Controllers\Task->processdAction()
+#7 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#8 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('processd', Array)
+#9 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/processd')
+#10 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[24-Jun-2018 16:59:10 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('dy_zvd', 'Pancake717', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('dy_zvd', 'Pancake717')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[24-Jun-2018 16:59:48 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('dy_zvd', 'Pancake717', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('dy_zvd', 'Pancake717')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[24-Jun-2018 17:00:39 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('dy_zvd', 'Pancake717', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('dy_zvd', 'Pancake717')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[24-Jun-2018 17:16:07 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('dy_zvd', 'Pancake717', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(779): InstagramAPI\Instagram->login('dy_zvd', 'Pancake717')
+#5 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(833): App\Controllers\Task->processfunction()
+#6 [internal function]: App\Controllers\Task->processbAction()
+#7 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#8 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('processb', Array)
+#9 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/processb')
+#10 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[24-Jun-2018 18:51:10 UTC] Uncaught Exception: 'InstagramAPI\Exception\BadRequestException'With message: 'InstagramAPI\Response\MediaInfoResponse: Media not found or unavailable.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'Media not found...', Object(InstagramAPI\Response\MediaInfoResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\MediaInfoResponse), '{"message": "Me...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request/Media.php(34): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\MediaInfoResponse))
+#3 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(128): InstagramAPI\Request\Media->getInfo('180803541059114...')
+#4 [internal function]: App\Controllers\Task->loadtasksAction()
+#5 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#6 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#7 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#8 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[24-Jun-2018 18:51:48 UTC] Uncaught Exception: 'InstagramAPI\Exception\BadRequestException'With message: 'InstagramAPI\Response\MediaInfoResponse: Media not found or unavailable.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'Media not found...', Object(InstagramAPI\Response\MediaInfoResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\MediaInfoResponse), '{"message": "Me...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request/Media.php(34): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\MediaInfoResponse))
+#3 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(128): InstagramAPI\Request\Media->getInfo('180803541059114...')
+#4 [internal function]: App\Controllers\Task->loadtasksAction()
+#5 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#6 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#7 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#8 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[24-Jun-2018 21:26:34 UTC] Uncaught Exception: 'InstagramAPI\Exception\CheckpointRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Checkpoint required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'checkpoint_requ...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('juicingforenerg...', 'xavier1413blake', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Accounts.php(155): InstagramAPI\Instagram->login('juicingforenerg...', 'xavier1413blake')
+#5 [internal function]: App\Controllers\Accounts->checkAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('check', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('accounts/check')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[24-Jun-2018 21:53:50 UTC] Uncaught Exception: 'InstagramAPI\Exception\BadRequestException'With message: 'InstagramAPI\Response\MediaInfoResponse: Media not found or unavailable.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'Media not found...', Object(InstagramAPI\Response\MediaInfoResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\MediaInfoResponse), '{"message": "Me...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request/Media.php(34): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\MediaInfoResponse))
+#3 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(128): InstagramAPI\Request\Media->getInfo('180803541059114...')
+#4 [internal function]: App\Controllers\Task->loadtasksAction()
+#5 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#6 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#7 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#8 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[24-Jun-2018 21:56:12 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111

@@ -1,0 +1,17 @@
+[03-Jul-2018 10:42:47 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111
+[03-Jul-2018 18:18:56 UTC] Uncaught Exception: 'ErrorException'With message: 'Undefined property: App\Models\User::$email'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/App/Models/User.php(72): Core\Error::errorHandler(8, 'Undefined prope...', '/home1/private/...', 72, Array)
+#1 /home1/private/public_html/instapp/fct1/App/Controllers/Growth.php(65): App\Models\User->authenticate()
+#2 [internal function]: App\Controllers\Growth->signinAction()
+#3 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#4 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('signin', Array)
+#5 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('growth/signin')
+#6 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/App/Models/User.php' on line72
+[03-Jul-2018 21:39:20 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111

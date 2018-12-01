@@ -1,0 +1,23 @@
+[04-Jul-2018 16:51:55 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111
+[04-Jul-2018 18:03:02 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111
+[04-Jul-2018 20:12:14 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111
+[04-Jul-2018 20:12:43 UTC] Uncaught Exception: 'Error'With message: 'Call to a member function find() on boolean'
+Stack Trace: '#0 [internal function]: App\Controllers\Accounts->loadpostAction()
+#1 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#2 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadpost', Array)
+#3 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('accounts/loadpo...')
+#4 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/App/Controllers/Accounts.php' on line121
+[04-Jul-2018 20:13:14 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111

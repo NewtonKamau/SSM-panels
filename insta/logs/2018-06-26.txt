@@ -1,0 +1,84 @@
+[26-Jun-2018 08:12:00 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('actionpicgirl', 'bill040506', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('actionpicgirl', 'bill040506')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[26-Jun-2018 08:12:50 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('actionpicgirl', 'bill040506', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('actionpicgirl', 'bill040506')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[26-Jun-2018 18:06:37 UTC] Uncaught Exception: 'InstagramAPI\Exception\BadRequestException'With message: 'InstagramAPI\Response\LoginResponse: Select a valid choice. 1 is not one of the available choices.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'Select a valid ...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "Se...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(542): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/App/Controllers/Accounts.php(376): InstagramAPI\Instagram->sendChallengeVerificationCode('7749941271', 'nhZN8mKogQ', '1', false)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Accounts.php(201): App\Controllers\Accounts->_sendVerificationCode(Object(InstagramAPI\Instagram), 'nhZN8mKogQ', '7749941271', '1', false)
+#5 [internal function]: App\Controllers\Accounts->verifyAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('verify', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('accounts/verify')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[26-Jun-2018 18:08:37 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('cinnamontoastpu...', '###7wuKBbxs1234...', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('cinnamontoastpu...', '###7wuKBbxs1234...')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[26-Jun-2018 18:09:12 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('cinnamontoastpu...', '###7wuKBbxs1234...', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('cinnamontoastpu...', '###7wuKBbxs1234...')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[26-Jun-2018 18:09:29 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('cinnamontoastpu...', '###7wuKBbxs1234...', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('cinnamontoastpu...', '###7wuKBbxs1234...')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[26-Jun-2018 18:12:37 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(551): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('cinnamontoastpu...', '###7wuKBbxs1234...', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('cinnamontoastpu...', '###7wuKBbxs1234...')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189

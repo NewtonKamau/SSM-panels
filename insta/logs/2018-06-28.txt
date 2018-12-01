@@ -1,0 +1,23 @@
+[28-Jun-2018 11:12:22 UTC] Uncaught Exception: 'InstagramAPI\Exception\BadRequestException'With message: 'InstagramAPI\Response\MediaInfoResponse: Media not found or unavailable.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(555): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'Media not found...', Object(InstagramAPI\Response\MediaInfoResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\MediaInfoResponse), '{"message": "Me...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request/Media.php(34): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\MediaInfoResponse))
+#3 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(128): InstagramAPI\Request\Media->getInfo('180803541059114...')
+#4 [internal function]: App\Controllers\Task->loadtasksAction()
+#5 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#6 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#7 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#8 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[28-Jun-2018 13:05:03 UTC] Uncaught Exception: 'InstagramAPI\Exception\InvalidUserException'With message: 'InstagramAPI\Response\LoginResponse: The username you entered doesn't appear to belong to an account. Please check your username and try again.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(555): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'The username yo...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "Th...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('@purebondi', 'Pur3Bond1@&', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Accounts.php(155): InstagramAPI\Instagram->login('@purebondi', 'Pur3Bond1@&')
+#5 [internal function]: App\Controllers\Accounts->checkAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('check', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('accounts/check')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189

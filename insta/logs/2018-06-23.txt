@@ -1,0 +1,22 @@
+[23-Jun-2018 15:38:12 UTC] Uncaught Exception: 'ErrorException'With message: 'Undefined variable: all_pks'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(763): Core\Error::errorHandler(8, 'Undefined varia...', '/home1/private/...', 763, Array)
+#1 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(845): App\Controllers\Task->processfunction()
+#2 [internal function]: App\Controllers\Task->processdAction()
+#3 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#4 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('processd', Array)
+#5 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/processd')
+#6 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/App/Controllers/Task.php' on line763
+[23-Jun-2018 15:59:56 UTC] Uncaught Exception: 'Exception'With message: 'Controller class App\Controllers\Users not found'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('users/login')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line107
+[23-Jun-2018 18:00:05 UTC] Uncaught Exception: 'ErrorException'With message: 'Undefined offset: 0'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(425): Core\Error::errorHandler(8, 'Undefined offse...', '/home1/private/...', 425, Array)
+#1 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(833): App\Controllers\Task->processfunction()
+#2 [internal function]: App\Controllers\Task->processbAction()
+#3 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#4 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('processb', Array)
+#5 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/processb')
+#6 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/App/Controllers/Task.php' on line425

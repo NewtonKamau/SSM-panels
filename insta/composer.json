@@ -1,0 +1,8 @@
+{
+    "require": {
+        "twig/twig": "^2.0",
+        "phpmailer/phpmailer": "^6.0",
+        "larabros/elogram": "^1.2",
+        "mgp25/instagram-php": "^4.1"
+    }
+}

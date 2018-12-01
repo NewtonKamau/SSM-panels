@@ -1,0 +1,4 @@
+[11-Jul-2018 17:10:27 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111

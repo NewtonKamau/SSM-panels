@@ -1,0 +1,14 @@
+1542178735a:1:{s:15:"site/footer.htm";a:6:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:263:"==
+<div class="footer-inner">
+    <p class="muted credit">
+        &copy; 2013 - {{ "now"|date("Y") }}
+        &mdash; Powered by <a href="#">October CMS</a>
+        using <a href="https://github.com/responsiv/clean-theme">a clean theme</a>.
+    </p>
+</div>";s:5:"mtime";i:1540039734;s:6:"markup";s:260:"<div class="footer-inner">
+    <p class="muted credit">
+        &copy; 2013 - {{ "now"|date("Y") }}
+        &mdash; Powered by <a href="#">October CMS</a>
+        using <a href="https://github.com/responsiv/clean-theme">a clean theme</a>.
+    </p>
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

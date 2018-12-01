@@ -1,0 +1,45 @@
+[02-Jul-2018 09:40:59 UTC] Uncaught Exception: 'ErrorException'With message: 'Undefined property: App\Models\User::$email'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/App/Models/User.php(72): Core\Error::errorHandler(8, 'Undefined prope...', '/home1/private/...', 72, Array)
+#1 /home1/private/public_html/instapp/fct1/App/Controllers/Growth.php(65): App\Models\User->authenticate()
+#2 [internal function]: App\Controllers\Growth->signinAction()
+#3 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#4 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('signin', Array)
+#5 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('growth/signin')
+#6 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/App/Models/User.php' on line72
+[02-Jul-2018 14:38:41 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111
+[02-Jul-2018 14:51:13 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(555): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('meowsme', 'k3kC1yxA', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('meowsme', 'k3kC1yxA')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
+[02-Jul-2018 21:10:51 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111
+[02-Jul-2018 21:12:01 UTC] Uncaught Exception: 'Exception'With message: 'No route matched !'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/Core/Router.php' on line111
+[02-Jul-2018 21:23:58 UTC] Uncaught Exception: 'InstagramAPI\Exception\ChallengeRequiredException'With message: 'InstagramAPI\Response\LoginResponse: Challenge required.'
+Stack Trace: '#0 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Client.php(555): InstagramAPI\Exception\ServerMessageThrower::autoThrow('InstagramAPI\\Re...', 'challenge_requi...', Object(InstagramAPI\Response\LoginResponse), Object(GuzzleHttp\Psr7\Response))
+#1 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Request.php(793): InstagramAPI\Client->mapServerResponse(Object(InstagramAPI\Response\LoginResponse), '{"message": "ch...', Object(GuzzleHttp\Psr7\Response))
+#2 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(496): InstagramAPI\Request->getResponse(Object(InstagramAPI\Response\LoginResponse))
+#3 /home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Instagram.php(444): InstagramAPI\Instagram->_login('workwithtrusiqu...', 'Y^bNR^oVFC3L', false, 1800)
+#4 /home1/private/public_html/instapp/fct1/App/Controllers/Task.php(43): InstagramAPI\Instagram->login('workwithtrusiqu...', 'Y^bNR^oVFC3L')
+#5 [internal function]: App\Controllers\Task->loadtasksAction()
+#6 /home1/private/public_html/instapp/fct1/Core/Controller.php(48): call_user_func_array(Array, Array)
+#7 /home1/private/public_html/instapp/fct1/Core/Router.php(100): Core\Controller->__call('loadtasks', Array)
+#8 /home1/private/public_html/instapp/fct1/public/index.php(47): Core\Router->dispatch('task/loadtasks')
+#9 {main}
+Thrown in: '/home1/private/public_html/instapp/fct1/vendor/mgp25/instagram-php/src/Exception/ServerMessageThrower.php' on line189
